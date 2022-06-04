@@ -6,7 +6,7 @@ COVID-19 Classifier using CNN DenseNet model
 # 1. Abstract
 The need to streamline patient management for COVID-19 has become more pressing than ever. Chest X-rays provide a non-invasive (potentially bedside) tool to monitor the progression of the disease. 
 In this study, we will create a convolutional neural network model classifier that can detect people with COVID-19 using the DenseNet layer and train it using chest x-ray images collected from chest x-rays (pneumonia) and for the general COVID-19 x-ray data collection. After training and evaluating the model, we got an accuracy of 97.6%, which means that out of every 10 people, there are three who are misdiagnosed.
-#2. Introduction
+# 2. Introduction
 In this study, we go through X-ray chest images to try to determine people’s status with COVID-19 and if it is positive or negative by building the CNN model. 
 We select X-ray images because it is cheaper and take a short time rather than blood tests, could measure the spread of the virus, datasets are available, and more. 
 Using the Convolutional Neural Networks DenseNet model, we will apply binary classification to X-ray images to build a model that can classify images in positive or negative COVID-19 status. This can limit the growth of the number of infected people.
@@ -16,7 +16,7 @@ Machine Learning:  It’s a type of AI that allows software applications to beco
 Deep Learning: Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain.
 Data mining: It’s the process of sorting through large data sets to identify patterns and relationships that can help solve business problems through data analysis.
  
-#3. Related Work
+# 3. Related Work
  3.1-According to Classification using CNN
 In this study, we will use the DenseNet layer to make our classification, but there are many other layers that could be used like VGG16, ResNet50, MobileNet, Inception V3, Xception, or NASNet. All of these do the same task but with different accuracy levels.
 3.2-According to using the CNN DenseNet model
@@ -24,7 +24,7 @@ There are a lot of studies that use the DenseNet model not only to detect COVID-
 http://arxiv.org/abs/2005.11856 
 https://arxiv.org/abs/2005.10052 
 https://arxiv.org/abs/2006.04603 
-#4. Materials and Methods
+# 4. Materials and Methods
 4.1-COVID-19 Cohort
 We used a cohort of 930 posteroanterior (PA) CXR images from a public COVID-19 image data collection [ieee8023/covid-chestxray-dataset] for positive patients. 
 All patients were reported COVID-19 positive and sourced from many hospitals around the world from December 2019 to March 2020+ COVID-19.
@@ -56,10 +56,10 @@ Dense: for binary classification using sigmoid function as activation function.
 5.1-From scratch model
  
  
-#5.2-Pretrained model 
+# 5.2-Pretrained model 
  
  
-#6. Classification report and Confusion Matrix
+# 6. Classification report and Confusion Matrix
 6.1-From scratch model
  
  
@@ -67,11 +67,11 @@ Dense: for binary classification using sigmoid function as activation function.
 
  
  
-#7. From Scratch VS pretrained models
+# 7. From Scratch VS pretrained models
 When we run two models on same dataset, perform same processing on images, same batch size and number of epochs we get: 
 97.6% VS 90.5% 
 We notice that accuracy in these conditions be highest in from scratch model.
-7. Future Work
+# 8. Future Work
 we will upgrade the purpose of study by trying to predict the severity of COVID-19 and locate the affected areas in the chest. Compare all CNN models to determine which one is the best for such a use case. 
 This study will help to develop a tool that could monitor the progression of the disease without surgery.
 
@@ -81,7 +81,7 @@ This study will help to develop a tool that could monitor the progression of the
 
 
 
-8. References 
+# 9. References 
 https://arxiv.org/abs/1608.06993v5 
 https://github.com/ieee8023/covid-chestxray-dataset 
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia 
