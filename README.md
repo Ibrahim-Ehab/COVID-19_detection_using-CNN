@@ -1,9 +1,7 @@
-# COVID-19_detection_using-CNN
-COVID-19 Classifier using CNN DenseNet model 
-
+# COVID-19 Classifier using CNN DenseNet model Pretrained VS From-Scratch model
  
  
-# 1. Abstract
+## 1. Abstract
 The need to streamline patient management for COVID-19 has become more pressing than ever. Chest X-rays provide a non-invasive (potentially bedside) tool to monitor the progression of the disease. 
 In this study, we will create a convolutional neural network model classifier that can detect people with COVID-19 using the DenseNet layer and train it using chest x-ray images collected from chest x-rays (pneumonia) and for the general COVID-19 x-ray data collection. After training and evaluating the model, we got an accuracy of 97.6%, which means that out of every 10 people, there are three who are misdiagnosed.
 # 2. Introduction
