@@ -30,6 +30,7 @@ All patients were reported COVID-19 positive and sourced from many hospitals aro
 ### 4.2-Dataset preparation
 We split images after rearranging them randomly into two sections, Train (which contains 700 images for two labels positive/negative COVID-19) for the training model
 Test (which contains 230 images for two labels positive/negative COVID-19) for the test model and evaluate it. You can get a prepared dataset here.
+https://drive.google.com/drive/folders/1HbFUthVwqm3jijluMhTWuf0URdbKk1ol?usp=sharing
 ### 4.3-Model architecture, Building model, and Preprocessing images
 We do some processing on all images of the dataset like rescale, zoom range, and horizontal flip to pass them to our model.  
 Recent work has shown that convolutional networks can be substantially deeper, more accurate, and efficient to train if they contain shorter connections between layers close to the input and those close to the output. In this paper, we embrace this observation and introduce the Dense Convolutional Network (DenseNet), which connects each layer to every other layer in a feed-forward fashion, we used the DenseNet model which consists of 15 layers as follows: one-input layer, four-Convolutional layers, three-Pooling layers, four-Dropout layers, one-flatten layer, and two-DenseNet layers
